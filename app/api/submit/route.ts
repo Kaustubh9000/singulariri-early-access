@@ -29,9 +29,10 @@ export async function POST(req: Request) {
     const result = await googleScriptResponse.json();
     return NextResponse.json(result, { status: 200 });
 
-  } catch (error: any) {
+  } catch (error: unknown) {
+    const errorMessage = error instanceof Error ? error.message : "Internal Server Error";
     return NextResponse.json(
-      { status: 'error', message: error.message || 'Internal Server Error' },
+      { status: 'error', errorMessage },
       { status: 500 }
     );
   }
