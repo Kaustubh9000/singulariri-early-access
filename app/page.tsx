@@ -13,12 +13,12 @@ export default function Home() {
               <div className="px-4 md:px-6">
                 <div className="flex flex-col items-center space-y-4">
                   <div className="space-y-4">
-                    <h2 className="text-font-yellow text-xl font-semibold tracking-wide text-start  md:text-3xl">
+                    <h2 className="text-font-yellow text-l tracking-wide text-start  md:text-2xl">
                       ***<br />WelCome To</h2>
-                    <h1 className="text-6xl sm:text-9xl">
+                    <h1 className="text-6xl md:text-9xl">
                       Singulariti</h1>
-                    <p className="mx-auto max-w-[700px] font-semibold text-font-yellow text-xl md:text-3xl text-end">
-                      New Era Of Internet</p>
+                    <p className="mx-auto max-w-[700px] text-font-yellow text-l md:text-2xl text-end">
+                    a step towards personalized AI</p>
                   </div>
                   <div className="flex flex-col items-center lg:space-x-14 sm:flex-row gap-4 mt-8 p-8">
                     <button className="hidden font-semibold rounded-xl lg:text-lg px-4 h-14 bg-[#E2DFD0]/75 hover:bg-white/80 text-black border-2 border-white/50 shadow-inner shadow-white/80"
